@@ -95,7 +95,7 @@ void emOrdem(Node* raiz) {
 int main() {
     Node* raiz = nullptr;
 
-    int opcao;
+    int opcao = -1;
     string nome, telefone, email;
 
     while (opcao != 0) {
@@ -150,3 +150,4 @@ int main() {
     }
     }
     return 0;
+}
